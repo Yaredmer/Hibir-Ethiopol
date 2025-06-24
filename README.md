@@ -81,11 +81,11 @@
 
     <section>
       <h2>Languages</h2>
-      <p>We aim to provide updates and materials in major Ethiopian languages:</p>
+      <p>We aim to provide updates and materials in major Ethiopian languages provided the participation of volunteers in different languages:</p>
       <ul>
-        <li>Amharic (አማርንዓ)</li>
+        <li>Amharic (አማርኛ)</li>
         <li>Oromo (Afaan Oromoo)</li>
-        <li>Tigrigna (ትግርና)</li>
+        <li>Tigrigna (ትግርኛ)</li>
         <li>Somali (Af Soomaali)</li>
         <li>Others based on volunteer translation support</li>
       </ul>
