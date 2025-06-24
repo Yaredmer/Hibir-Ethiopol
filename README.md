@@ -50,7 +50,7 @@
   <header>
     <h1>ህብር ኢትዮጵያ በፖላንድ</h1>
     <p>Hibir Ethiopia be'Poland</p>
-    <p class="tagline">የተባበረ የኢትዮጵያ ማህበርሰብ በፖላንድ፣ ለደዳፋታታን መሰረት።</p>
+    <p class="tagline">የተባበረ የኢትዮጵያ ማህበርሰብ በፖላንድ፣ ለወደፊታችን መሰረት።</p>
     <p class="languages">ህብር ኢትዮጵያ በፖላንድ | ኢትዮጵያዌያን በፖላንድ | Oromoota Poland keessa jiraatan | Itoophiyaa Poland keessatti</p>
   </header>
 
