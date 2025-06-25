@@ -6,7 +6,7 @@
   <title>ህብር ኢትዮጵያ በፖላንድ - Hibir Ethiopia be'Poland</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: #f7f7f7;
       color: #333;
       margin: 0;
@@ -15,7 +15,7 @@
     header {
       background: #00703c;
       color: white;
-      padding: 1rem;
+      padding: 2rem 1rem;
       text-align: center;
     }
     main {
@@ -37,11 +37,21 @@
     }
     .languages {
       font-style: italic;
-      color: #555;
+      color: #ddd;
+      margin-top: 0.5rem;
     }
     .tagline {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       margin-top: 0.5rem;
+      font-weight: 300;
+    }
+    .community-flavor {
+      background: #eaf4ec;
+      border-left: 5px solid #00703c;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      font-style: italic;
+      color: #444;
     }
     form input, form textarea, form button {
       margin-top: 0.5rem;
@@ -69,10 +79,14 @@
     <h1>ህብር ኢትዮጵያ በፖላንድ</h1>
     <p>Hibir Ethiopia be'Poland</p>
     <p class="tagline">የተባበረ የኢትዮጵያ ማህበርሰብ በፖላንድ፣ ለወደፊታችን መሰረት።</p>
-    <p class="languages">ህብር ኢትዮጵያ በፖላንድ | ኢትዮጵያዌያን በፖላንድ | Oromoota Poland keessa jiraatan | Itoophiyaa Poland keessatti</p>
+    <p class="languages">አማራ፣ ኦሮሞ፣ ትግራይ፣ ሶማሌ፣ አፋር፣ ሲዳሞ፣ ነዳሌ፣ ጉምዝ፣ ዳላ፣ እና ሌሎች ብዙ የኢትዮጵያ ብሔሮች። እኛ አንድ ነን።</p>
   </header>
 
   <main>
+    <div class="community-flavor">
+      We welcome all Ethiopians — Amhara, Oromo, Tigrayan, Somali, Afar, Sidama, Gumuz, Dawro, Konso, Welaita, and many more — with respect and unity. This is your space. Let us speak our truths and heal together.
+    </div>
+
     <section>
       <h2>Opening Letter: To Long for Change</h2>
       <p><strong>By Yared Likawnt – June 9, 2025</strong></p>
@@ -83,63 +97,21 @@
     </section>
 
     <section>
-      <h2>Mission</h2>
-      <p>
-        We are a growing community of Ethiopians in Poland who believe in the power of unity, awareness, and action. Our mission is to break the silence around political and social issues affecting Ethiopia and its people, both at home and in the diaspora. Through volunteer work, resource sharing, emergency response, and mutual aid, we support Ethiopians in Poland and extend solidarity to our people back home.
-      </p>
-    </section>
-
-    <section>
-      <h2>Neutrality Statement</h2>
-      <p>
-        We are not affiliated with any political party, group, or ideology. This is a free and open space where Ethiopians of all backgrounds, beliefs, and views can come together with respect. We build unity, not division.
-      </p>
-    </section>
-
-    <section>
-      <h2>Volunteer Registration</h2>
+      <h2>Sign Up Form (Multiple Options)</h2>
       <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-        <label for="volunteer-email">Email:</label>
-        <input type="email" id="volunteer-email" name="email" required>
-        <input type="hidden" name="type" value="volunteer">
-        <button type="submit">Register as Volunteer</button>
-      </form>
-    </section>
+        <label for="multi-email">Your Email:</label>
+        <input type="email" id="multi-email" name="email" required>
 
-    <section>
-      <h2>Subscribe to Monthly Paper</h2>
-      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-        <label for="paper-email">Email:</label>
-        <input type="email" id="paper-email" name="email" required>
-        <input type="hidden" name="type" value="paper-subscription">
-        <button type="submit">Subscribe</button>
-      </form>
-    </section>
+        <p>What would you like to sign up for?</p>
+        <label><input type="checkbox" name="interests" value="volunteer"> Volunteer</label><br>
+        <label><input type="checkbox" name="interests" value="monthly-paper"> Monthly Community Paper</label><br>
+        <label><input type="checkbox" name="interests" value="news"> News & Announcements</label><br>
+        <label><input type="checkbox" name="interests" value="events"> Public Talks / Events</label><br>
 
-    <section>
-      <h2>Get News & Announcements</h2>
-      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-        <label for="news-email">Email:</label>
-        <input type="email" id="news-email" name="email" required>
-        <input type="hidden" name="type" value="news">
-        <button type="submit">Subscribe</button>
-      </form>
-    </section>
+        <label for="message">Optional Message:</label>
+        <textarea id="message" name="message" rows="4"></textarea>
 
-    <section>
-      <h2>Get Involved</h2>
-      <ul>
-        <li>Join our volunteer team (see above)</li>
-        <li>Contribute to our emergency aid fund</li>
-        <li>Participate in public talks and discussions</li>
-      </ul>
-      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-        <label for="message">Tell us how you'd like to contribute:</label>
-        <textarea id="message" name="message" rows="4" cols="50"></textarea>
-        <label for="contact-email">Your Email:</label>
-        <input type="email" id="contact-email" name="email" required>
-        <input type="hidden" name="type" value="get-involved">
-        <button type="submit">Send</button>
+        <button type="submit">Submit</button>
       </form>
     </section>
 
@@ -151,7 +123,7 @@
         <li>Oromo (Afaan Oromoo)</li>
         <li>Tigrigna (ትግርኛ)</li>
         <li>Somali (Af Soomaali)</li>
-        <li>Others based on volunteer translation support</li>
+        <li>Afar, Sidama, Gumuz, and more on request</li>
       </ul>
     </section>
   </main>
