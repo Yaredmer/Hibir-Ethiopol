@@ -57,6 +57,11 @@
       border: none;
       cursor: pointer;
     }
+    a.pdf-link {
+      color: #00703c;
+      font-weight: bold;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
@@ -68,6 +73,15 @@
   </header>
 
   <main>
+    <section>
+      <h2>Opening Letter: To Long for Change</h2>
+      <p><strong>By Yared Likawnt – June 9, 2025</strong></p>
+      <p>
+        To long for change is a heavy burden. Every time I try to speak about the troubles on my mind—the suffering of our people and the state of Ethiopia—I am often met with responses like: “Yes, but what can you do?” But the more I listen to the news, the more I witness the pain and suffering of our people worsening each day...
+      </p>
+      <p><a class="pdf-link" href="To%20Long%20for%20Change.pdf" target="_blank">📄 Read Full Letter (PDF)</a></p>
+    </section>
+
     <section>
       <h2>Mission</h2>
       <p>
