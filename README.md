@@ -80,12 +80,12 @@
     <h1>ህብር ኢትዮጵያ በፖላንድ</h1>
     <p>Hibir Ethiopia be'Poland</p>
     <p class="tagline">የተባበረ የኢትዮጵያ ማህበርሰብ በፖላንድ፣ ለወደፊታችን መሰረት።</p>
-    <p class="languages">አማራ፣ ኦሮሞ፣ ትግራይ፣ ሶማሌ፣ አፋር፣ ሲዳሞ፣ ነዳሌ፣ ጉምዝ፣ ዳላ፣ እና ሌሎች ብዙ የኢትዮጵያ ብሔሮች። እኛ አንድ ነን።</p>
+    <p class="languages">ለፍትህ እና ርትዕ ሁሌም እንቆማለን።</p>
   </header>
 
   <main>
     <div class="community-flavor">
-      We welcome all Ethiopians — Amhara, Oromo, Tigrayan, Somali, Afar, Sidama, Gumuz, Dawro, Konso, Welaita, and many more — with respect and unity. This is your space. Let us speak our truths and heal together.
+      We welcome all Ethiopians with respect and unity. This is your space. Let us speak our truths and heal together.
     </div>
 
     <section>
@@ -118,13 +118,11 @@
 
     <section>
       <h2>Languages</h2>
-      <p>We aim to provide updates and materials in major Ethiopian languages:</p>
+      <p>We aim to provide updates and materials in the following languages and more based on participation and importance:</p>
       <ul>
         <li>Amharic (አማርኛ)</li>
-        <li>Oromo (Afaan Oromoo)</li>
-        <li>Tigrigna (ትግርኛ)</li>
-        <li>Somali (Af Soomaali)</li>
-        <li>Afar, Sidama, Gumuz, and more on request</li>
+        <li>English</li>
+        <li>Polish</li>
       </ul>
     </section>
   </main>
