@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,7 +37,7 @@
     }
     .languages {
       font-style: italic;
-      color: #ddd;
+      color: #ffffff; /* updated for visibility */
       margin-top: 0.5rem;
     }
     .tagline {
@@ -85,50 +84,4 @@
 
   <main>
     <div class="community-flavor">
-      We welcome all Ethiopians with respect and unity. This is your space. Let us speak our truths and heal together.
-    </div>
-
-    <section>
-      <h2>Opening Letter: To Long for Change</h2>
-      <p><strong>By Yared Likawnt – June 9, 2025</strong></p>
-      <p>
-        To long for change is a heavy burden. Every time I try to speak about the troubles on my mind—the suffering of our people and the state of Ethiopia—I am often met with responses like: “Yes, but what can you do?” But the more I listen to the news, the more I witness the pain and suffering of our people worsening each day...
-      </p>
-      <p><a class="pdf-link" href="To%20Long%20for%20Change.pdf" target="_blank">📄 Read Full Letter (PDF)</a></p>
-    </section>
-
-    <section>
-      <h2>Sign Up Form (Multiple Options)</h2>
-      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-        <label for="multi-email">Your Email:</label>
-        <input type="email" id="multi-email" name="email" required>
-
-        <p>What would you like to sign up for?</p>
-        <label><input type="checkbox" name="interests" value="volunteer"> Volunteer</label><br>
-        <label><input type="checkbox" name="interests" value="monthly-paper"> Monthly Community Paper</label><br>
-        <label><input type="checkbox" name="interests" value="news"> News & Announcements</label><br>
-        <label><input type="checkbox" name="interests" value="events"> Public Talks / Events</label><br>
-
-        <label for="message">Optional Message:</label>
-        <textarea id="message" name="message" rows="4"></textarea>
-
-        <button type="submit">Submit</button>
-      </form>
-    </section>
-
-    <section>
-      <h2>Languages</h2>
-      <p>We aim to provide updates and materials in the following languages and more based on participation and importance:</p>
-      <ul>
-        <li>Amharic (አማርኛ)</li>
-        <li>English</li>
-        <li>Polish</li>
-      </ul>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2025 ህብር ኢትዮጵያ በፖላንድ. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+      We
