@@ -1,4 +1,3 @@
-# Hibir-Ethiopol
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,6 +43,20 @@
       font-size: 1.1rem;
       margin-top: 0.5rem;
     }
+    form input, form textarea, form button {
+      margin-top: 0.5rem;
+      display: block;
+      width: 100%;
+      max-width: 400px;
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+    form button {
+      background: #00703c;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
@@ -70,18 +83,55 @@
     </section>
 
     <section>
+      <h2>Volunteer Registration</h2>
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <label for="volunteer-email">Email:</label>
+        <input type="email" id="volunteer-email" name="email" required>
+        <input type="hidden" name="type" value="volunteer">
+        <button type="submit">Register as Volunteer</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Subscribe to Monthly Paper</h2>
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <label for="paper-email">Email:</label>
+        <input type="email" id="paper-email" name="email" required>
+        <input type="hidden" name="type" value="paper-subscription">
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Get News & Announcements</h2>
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <label for="news-email">Email:</label>
+        <input type="email" id="news-email" name="email" required>
+        <input type="hidden" name="type" value="news">
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <section>
       <h2>Get Involved</h2>
       <ul>
-        <li>Subscribe to our monthly community paper</li>
-        <li>Join our volunteer team</li>
+        <li>Join our volunteer team (see above)</li>
         <li>Contribute to our emergency aid fund</li>
         <li>Participate in public talks and discussions</li>
       </ul>
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <label for="message">Tell us how you'd like to contribute:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+        <label for="contact-email">Your Email:</label>
+        <input type="email" id="contact-email" name="email" required>
+        <input type="hidden" name="type" value="get-involved">
+        <button type="submit">Send</button>
+      </form>
     </section>
 
     <section>
       <h2>Languages</h2>
-      <p>We aim to provide updates and materials in major Ethiopian languages provided the participation of volunteers in different languages:</p>
+      <p>We aim to provide updates and materials in major Ethiopian languages:</p>
       <ul>
         <li>Amharic (አማርኛ)</li>
         <li>Oromo (Afaan Oromoo)</li>
