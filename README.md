@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ህብር ኢትዮጵያ በፖላንድ - ህብር ኢትዮጵያ በፖላንድ ፟ Hibir Ethiopia be'Poland</title>
+  <title>ህብር ኢትዮጵያ በፖላንድ - Hibir Ethiopia be'Poland</title>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -37,7 +37,7 @@
     }
     .languages {
       font-style: italic;
-      color: #ffffff; /* updated for visibility */
+      color: #ffffff;
       margin-top: 0.5rem;
     }
     .tagline {
@@ -83,9 +83,13 @@
   </header>
 
   <main>
-    <div class="community-flavor">
-      We welcome all Ethiopians with respect and unity. This is your space. Let us speak our truths and heal together.
-    </div>
+    <section>
+      <h2>Welcome Statement</h2>
+      <div class="community-flavor">
+        We welcome all Ethiopians with respect and unity. This is your space. Let us speak our truths and heal together. We understand that here in Poland such a space should be open and available for all of us, where we can educate eachother, help those in need both here and at home while also acting as a representation to all of us here without exception to political ideology, religion, sex, creed and alike. Whether to act as a unified group in times of emergency and need or creating an engaging and educating platform, us here at Hibir Ethiopia be'Poland need your precious time and effort by getting involved through volunteering, reading monthly papers, sharing your own experience, telling to other Ethiopians about this space. Oue first zoom meeting will be held Friday, 11th of July (subject to change depending on participation and availability) where we will have a get to know eachother and discuss in detail the next moves of this collective. 
+        Hibir Ethiopia be'Poland
+      </div>
+    </section>
 
     <section>
       <h2>Opening Letter: To Long for Change</h2>
