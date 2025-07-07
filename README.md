@@ -1,77 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ህብር ኢትዮጵያ በፖላንድ - Hibir Ethiopia be'Poland</title>
   <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f7f7f7;
-      color: #333;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background: #00703c;
-      color: white;
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-    main {
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    h1, h2 {
-      color: #00703c;
-    }
-    section {
-      margin-bottom: 2rem;
-    }
-    footer {
-      background: #00703c;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-    }
-    .languages {
-      font-style: italic;
-      color: #ffffff;
-      margin-top: 0.5rem;
-    }
-    .tagline {
-      font-size: 1.2rem;
-      margin-top: 0.5rem;
-      font-weight: 300;
-    }
-    .community-flavor {
-      background: #eaf4ec;
-      border-left: 5px solid #00703c;
-      padding: 1rem;
-      margin-bottom: 2rem;
-      font-style: italic;
-      color: #444;
-    }
-    form input, form textarea, form button {
-      margin-top: 0.5rem;
-      display: block;
-      width: 100%;
-      max-width: 400px;
-      padding: 0.5rem;
-      font-size: 1rem;
-    }
-    form button {
-      background: #00703c;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-    a.pdf-link {
-      color: #00703c;
-      font-weight: bold;
-      text-decoration: none;
-    }
+    body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f7f7f7; color: #333; margin: 0; padding: 0;}
+    header {background: #00703c; color: white; padding: 2rem 1rem; text-align: center;}
+    main {padding: 2rem; max-width: 800px; margin: auto;}
+    h1, h2 {color: #00703c;}
+    section {margin-bottom: 2rem;}
+    footer {background: #00703c; color: white; text-align: center; padding: 1rem;}
+    .languages {font-style: italic; color: #ffffff; margin-top: 0.5rem;}
+    .tagline {font-size: 1.2rem; margin-top: 0.5rem; font-weight: 300;}
+    .community-flavor {background: #eaf4ec; border-left: 5px solid #00703c; padding: 1rem; margin-bottom: 2rem; font-style: italic; color: #444;}
+    form input, form textarea, form button {margin-top: 0.5rem; display: block; width: 100%; max-width: 400px; padding: 0.5rem; font-size: 1rem;}
+    form button {background: #00703c; color: white; border: none; cursor: pointer;}
+    a.pdf-link {color: #00703c; font-weight: bold; text-decoration: none;}
   </style>
 </head>
 <body>
@@ -86,31 +31,35 @@
     <section>
       <h2>Welcome Statement</h2>
       <div class="community-flavor">
-        We welcome all Ethiopians with respect and unity. This is your space. Let us speak our truths and heal together. We understand that here in Poland such a space should be open and available for all of us, where we can educate eachother, help those in need both here and at home while also acting as a representation to all of us here without exception to political ideology, religion, sex, creed and alike. Whether to act as a unified group in times of emergency and need or creating an engaging and educating platform, us here at Hibir Ethiopia be'Poland need your precious time and effort by getting involved through volunteering, reading monthly papers, sharing your own experience, telling to other Ethiopians about this space. Oue first zoom meeting will be held Friday, 11th of July (subject to change depending on participation and availability) where we will have a get to know eachother and discuss in detail the next moves of this collective. 
-        Hibir Ethiopia be'Poland
+        We welcome all Ethiopians with respect and unity. This is your space. Let us speak our truths and heal together. We understand that here in Poland such a space should be open and available for all of us, where we can educate each other, help those in need both here and at home, and represent each other without exception to political ideology, religion, sex, creed, or background. To reach out: <strong>hibirethiopol@gmail.com</strong>
       </div>
     </section>
 
     <section>
       <h2>Opening Letter: To Long for Change</h2>
       <p><strong>By Yared Likawnt – June 9, 2025</strong></p>
-      <p>
-        To long for change is a heavy burden. Every time I try to speak about the troubles on my mind—the suffering of our people and the state of Ethiopia—I am often met with responses like: “Yes, but what can you do?” But the more I listen to the news, the more I witness the pain and suffering of our people worsening each day...
-      </p>
+      <p>To long for change is a heavy burden. Every time I try to speak about the troubles on my mind—the suffering of our people and the state of Ethiopia—I am often met with responses like: “Yes, but what can you do?” But the more I listen to the news, the more I witness the pain and suffering of our people worsening each day...</p>
       <p><a class="pdf-link" href="To%20Long%20for%20Change.pdf" target="_blank">📄 Read Full Letter (PDF)</a></p>
+    </section>
+
+    <section>
+      <h2>First Monthly Column - July / ሃምሌ</h2>
+      <p><strong>By Yared Likawnt – July 6, 2025</strong></p>
+      <p>This is our first full monthly column, available in both Amharic and English for our community. Please read the entire letter by opening the PDF below.</p>
+      <p><a class="pdf-link" href="ሃምሌ%20July.pdf" target="_blank">📄 Download & Read July Column (PDF)</a></p>
     </section>
 
     <section>
       <h2>Sign Up Form (Multiple Options)</h2>
       <form action="https://formspree.io/f/xrbkokkd" method="POST">
         <label for="multi-email">Your Email:</label>
-        <input type="email" id="multi-email" name="email" required>
+        <input type="email" id="multi-email" name="email" required />
 
         <p>What would you like to sign up for?</p>
-        <label><input type="checkbox" name="interests[]" value="volunteer"> Volunteer</label><br>
-        <label><input type="checkbox" name="interests[]" value="monthly-paper"> Monthly Community Paper</label><br>
-        <label><input type="checkbox" name="interests[]" value="news"> News & Announcements</label><br>
-        <label><input type="checkbox" name="interests[]" value="events"> Public Talks / Events</label><br>
+        <label><input type="checkbox" name="interests[]" value="volunteer" /> Volunteer</label><br />
+        <label><input type="checkbox" name="interests[]" value="monthly-paper" /> Monthly Community Paper</label><br />
+        <label><input type="checkbox" name="interests[]" value="news" /> News & Announcements</label><br />
+        <label><input type="checkbox" name="interests[]" value="events" /> Public Talks / Events</label><br />
 
         <label for="message">Optional Message:</label>
         <textarea id="message" name="message" rows="4"></textarea>
@@ -131,7 +80,7 @@
   </main>
 
   <footer>
-    <p>© 2025 ህብር ኢትዮጵያ በፖላንድ. All rights reserved.</p>
+    <p>© 2025 ህብር ኢትዮጵያ በፖላንድ. All rights reserved. | Contact: hibirethiopol@gmail.com</p>
   </footer>
 </body>
 </html>
